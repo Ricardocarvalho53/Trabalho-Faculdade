@@ -1,0 +1,35 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.count {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.input {
+  width: 15rem;
+  height: 2rem;
+  padding: 0 1rem;
+  border-color: #646cffaa;
+  border-radius: 0.6rem;
+}
+
+.error {
+  color: red;
+  margin: 1rem 0;
+}
+
+.button {
+  width: 10rem;
+  height: 2rem;
+  font-size: 1rem;
+  border-color: #646cffaa;
+  background-color: #61dafbaa;
+  border-radius: 0.6rem;
+}
